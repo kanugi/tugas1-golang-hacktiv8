@@ -42,7 +42,7 @@ func main() {
 	}
 
 	if _, err := fmt.Sscanf(os.Args[1], "%d", &absenInt); err != nil {
-		fmt.Println("Tidak ")
+		fmt.Println("Isikan nomor absen dengan angka")
 		os.Exit(1)
 	}
 
